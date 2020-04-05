@@ -68,14 +68,28 @@
         &__medium-8-narrower {
             width: 63%;
         }
+    }
 
-        &--equal-height-at-medium {
+
+
+    /* Begin equal height rules */
+    &--equal-height-at-medium {
+        @mixin atMedium {
             display: flex;
-
-            & > div {
-                display: flex;
-            }
         }
-    
+
+        & > div {
+            display: flex;
+        }
+    }
+
+    &--equal-height-at-large {
+        @mixin atLarge {
+            display: flex;
+        }
+        
+        & > div {
+            display: flex;
+        }
     }
 }
