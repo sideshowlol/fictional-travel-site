@@ -6,11 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: $bodyText;
  }
-
- h1 {
-    font-size: 4rem;
-    font-weight: 900;
-}
  
  img {
      max-width: 100%;
@@ -20,3 +15,4 @@ body {
  a {
      color: $mainOrange;
  }
+ 

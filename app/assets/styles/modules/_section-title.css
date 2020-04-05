@@ -5,12 +5,15 @@
 
     @mixin atSmall {
         font-size: 3.75rem;
-     
      }
      
     strong {
         font-weight: 500;
      }
+
+     &--blue {
+        color: $mainBlue;
+    }
      
      &__icon {
          margin-bottom: 0.6rem;
@@ -19,13 +22,13 @@
          margin-right: auto;
 
          @mixin atSmall {
-             margin-bottom: -0.3rem;
+             position: relative;
+             top: 8px;
+             margin-bottom: 0;
              margin-right: 0.5rem;
              margin-left: 0;
              display: inline-block;
          }
 
      }
-
-     
 }

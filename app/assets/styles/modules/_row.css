@@ -1,5 +1,4 @@
 .row {
-  /*background-color: $testCol2;*/
 
     @mixin clearFix {}
 
@@ -55,10 +54,7 @@
 
         &__medium-8-narrower {
             width: 63%;
-        }
-
-        
-        
+        }        
         
     }
 }
