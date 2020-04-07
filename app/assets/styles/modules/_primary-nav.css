@@ -1,0 +1,30 @@
+.primary-nav {
+ /*   background-color: $mainOrange; /* temp test */
+    
+    &--pull-right {
+        float: right;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        @mixin: clearFix {};
+    }
+
+    li {
+        list-style: none;
+        float: left; 
+        padding-right: 20px;
+    }
+
+    a {
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+        display: block;
+        padding-top: 12px;
+    }
+
+  
+    
+}
